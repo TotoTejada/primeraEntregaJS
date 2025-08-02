@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo básico para el body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #1d1c1c;
+  line-height: 1.6;
+}
+
+/* Estilo para el header */
+header {
+  background-color: #dbd9d9;
+  color: white;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header .logo img {
+  height: 50px; /* Ajusta el tamaño del logo */
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #f39c12; /* Color de hover */
+}
+
+/* Estilos del contenido principal */
+main {
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+}
